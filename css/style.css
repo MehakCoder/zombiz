@@ -5,7 +5,11 @@ body {
     font-family: 'Poppins', sans-serif;
     ;
 }
-
+html,body{
+    height: 100%;
+	position: relative;
+    z-index: 2;
+}
 .container {
     border: 1px solid black;
 }
@@ -46,14 +50,76 @@ ul li{
 }
 select,input,textarea{
     box-shadow:none;
-    outline:0!important;}
-
-
-html,body{
-    height: 100%;
-	position: relative;
-    z-index: 2;
+    outline:0!important;
+}
+.wrapper{
+    position: relative;
+    z-index: -1;
+}
+/* Header  */
+.header{
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+.header li a{
+    color: #888;
+    outline: 0;
+}
+.book-info-left li{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+}
+.pull-left ul li a{
+    text-decoration: none;
+}
+.book-info{
+    float: right;
+}
+.book-info-left li :hover {
+	color: #7370d8;
+}
+.book-info li{
+    display: inline-block;
+}
+.book-info li a{
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+    padding-bottom: 7px;
+    transition: 0.5;
+}
+.book-info li :hover{
+    color: #7370d8;
+}
+.reg a{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.book-info .social-icons{
+    display: inline-block;
+}
+.social-icons{
+    margin-left: 6px;
+    top: 0;
+}
+.social-icons li{
+    display: inline-block;
+}
+.social-icons li a{
+    margin-left: 14px;  
+}
+/* Header : the end */
+.menu{
+    z-index: 999;
+}
+.Brand,Brand:hover,Brand:focus{
+     margin-top: 33px;
+     padding: 0;
 }
 .Wrapper-sticky{
+    position: relative;
+    display: inline-block;
     background-color:rgba(115,112,216,1); 
 }
+
