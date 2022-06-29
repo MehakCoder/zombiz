@@ -248,5 +248,80 @@ select,input,textarea{
 }
 /* About us : the end */
 /* Service */
-
+.Services{
+    padding:116px 0 85px;
+}
+.Services-header{
+    margin-bottom: 30px;
+}
+.Services-header h2{
+ color: #44454f;
+ font-size: 30px;
+ font-family:'Playfair Display', serif;
+ font-weight: 700;
+}
+.Services-header p{
+    color: #888;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif; 
+    margin: 28px 0 auto;
+    line-height: 1.8;
+}
+.Services-details{
+    margin-top: 42px;
+    margin-bottom: 60px;
+}
+.Services-details .Service-single{
+    border: 1px solid #fff; 
+    max-width: 304px;
+    margin: 0 auto 15px;
+}
+.Service-single:hover{
+    box-shadow:0 5px 20px rgba(112,134,230,.2);
+	opacity: 1;
+}
+.Service-single .Service-img img{
+    height: 65px;
+    margin-top: 30px;
+}
+.Service-text h2 a{
+    color: #44454f;
+    font-size: 24px;
+    font-family:'Playfair Display', serif;
+    padding: 47px 0 25px;
+}
+.Service-text p{
+    color: #756c6a;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.67;
+}
+a.service-btn{
+    color:#7370d8;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif; 
+    text-transform: capitalize;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
 /* Service:the end */
+/* statistics */
+.statistics{
+    position: relative;
+    background-image: url(../image/counter-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 98px 0 81px;
+}
+.statistics:before{
+    position: absolute;
+    content: " ";
+    background: rgba(115,112,216,.8);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* statistics : the end */
