@@ -348,6 +348,23 @@ a.service-btn{
 	margin-top: 9px;
 	line-height: 1.5;
 }
-
-
 /* statistics : the end */
+/* Project */
+.Project{
+    padding: 117px 0 109px;
+}
+.Project-detail h2{
+    color: #44454f;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.Project-detail p{
+    color: #888;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 470px;
+    margin-top: 32px
+}
+
+/* Project:the end */
