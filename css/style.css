@@ -323,10 +323,11 @@ a.service-btn{
     top: 0;
     left: 0;
 }
-.statistics-box{
+.single-statistics-box{
     display: flex;
     margin-bottom:30px;
 	height: 75px; 
 }
+
 
 /* statistics : the end */
