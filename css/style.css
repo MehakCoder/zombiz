@@ -323,10 +323,30 @@ a.service-btn{
     top: 0;
     left: 0;
 }
+.statistics-counter{
+    display: flex;
+    z-index: 1;
+} 
 .single-statistics-box{
     display: flex;
     margin-bottom:30px;
 	height: 75px; 
+}
+.statistics-content{
+    margin-left: 28px;
+}
+.statistics-content .counter{
+    color:#fff;
+	font-size:32px;
+	font-family: 'Poppins', sans-serif;
+}
+.statistics-content h3{
+	color:#fff;
+	font-size:20px;
+	text-transform:capitalize;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 9px;
+	line-height: 1.5;
 }
 
 
