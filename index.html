@@ -9,11 +9,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
 </head>
 
 <body>
@@ -714,20 +714,29 @@
     <section class="clients">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="clients-area">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item"><a href="#"><img src="image/client1.png" alt="brand-image"></a></div>
-                            <div class="item"><a href="#"><img src="image/client2.png" alt="brand-image"></a></div>
-                            <div class="item"><a href="#"><img src="image/client3.png" alt="brand-image"></a></div>
-                            <div class="item"><a href="#"><img src="image/client4.png" alt="brand-image"></a></div>
-                            <div class="item"><a href="#"><img src="image/client5.png" alt="brand-image"></a></div>
+                <div class="col-12">
+
+                    <div class="owl-carousel owl-theme owl-loaded">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item"><a href="#"><img src="image/client1.png" alt="brand-image"></a>
+                                </div>
+                                <div class="owl-item"><a href="#"><img src="image/client2.png" alt="brand-image"></a>
+                                </div>
+                                <div class="owl-item"><a href="#"><img src="image/client3.png" alt="brand-image"></a>
+                                </div>
+                                <div class="owl-item"><a href="#"><img src="image/client4.png" alt="brand-image"></a>
+                                </div>
+                                <div class="owl-item"><a href="#"><img src="image/client5.png" alt="brand-image"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--clients:the end  -->
     <!--nwes start -->
@@ -1093,7 +1102,7 @@
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-<script src="js/isotope-docs.min.js"></script>
+
 <script>
     $(document).ready(function () {
         $('.counter').each(function () {
@@ -1108,11 +1117,13 @@
             });
         });
     });
-// $(window).on('load', function(){
-// 			$('.counter')
-// 				delay: 10,
-// 				time: 3000
-// 			});	
+$(window).on('load', function(){
+			$('.counter').counterup({
+				delay: 10,
+				time: 3000
+			});
+        });	
+            
 
 
 </script>
