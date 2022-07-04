@@ -122,9 +122,6 @@ select,input,textarea{
     position: relative;
     display: block;
     height: 105px;
-    width: auto;
-    margin: auto;
-    inset: auto;
     background-color:rgba(115,112,216,1); 
 }
 .menu-bar ul li{
@@ -365,6 +362,9 @@ a.service-btn{
     font-family: 'Poppins', sans-serif;
     max-width: 470px;
     margin-top: 32px
+}
+.project-overlay{
+    ;
 }
 
 /* Project:the end */

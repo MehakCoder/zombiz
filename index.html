@@ -1082,6 +1082,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/isotope-docs.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
 <script>
     $(document).ready(function(){
     $('.counter').each(function(){
@@ -1096,6 +1097,13 @@
         });
     });
 });
+$(window).on('load', function(){	
+			$('.counter').counterUp({
+				delay: 10,
+				time: 3000
+			});	
+		});
+	
 </script>
 
 </html>
