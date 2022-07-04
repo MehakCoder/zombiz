@@ -351,7 +351,7 @@ a.service-btn{
     padding: 117px 0 109px;
 }
 .Project-detail{
-   margin-bottom: 32px;
+   margin-bottom: 35px;
 }
 .Project-detail h2{
     color: #44454f;
@@ -379,6 +379,14 @@ a.service-btn{
     overflow: hidden;
     margin-bottom: 30px;
 }
+.Gallery-content img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.Gallery-content img :hover{
+    transform: scale(1.5);
+}
 .project-overlay{
     background-color: #7370d8;
   }
@@ -400,3 +408,121 @@ a.service-btn{
 
 
 /* Project:the end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pricing */
+.Pricing{
+  padding: 115px 0 78px;
+}
+.Pricing-detail h2{
+  color: #44454f;
+  font-size: 30px;
+  font-family:'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  margin-bottom: 35px;
+}
+.Pricing-detail p{
+    color: #888;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1000px;
+    margin: 32px auto;
+    line-height: 1.8;
+    text-align: center;
+}
+.Pricing-content{
+    padding-top: 85px;
+}
+.Pricing-box{
+    background: #fcfcff;
+    text-align: center;
+    padding: 0px 0px 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    opacity: .6;
+    transition: all 0.3s linear;
+}
+.Pricing-Header{
+    background: #7370d8;
+    padding-top: 25px;
+    padding-bottom: 28px;
+    transition: all 0.3s linear;
+}
+.Pricing-Header h2{
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.Pricing-Header h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 0 11px;
+    transition: all 0.3 linear;
+}
+.Pricing-Header p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.plan-lists{
+    display: inline-grid;
+    margin-top: 28px;
+    list-style: none;
+}
+.plan-lists li{
+    font-size: 16px;
+    line-height: 40px;
+    color: #888;
+    text-transform: capitalize;
+    transition: all 0.3 linear;
+}
+.pricing-btn {
+    margin-top: 49px;
+    letter-spacing: 1.2px;
+}
+.pricing-btn .project-view{
+    color: #fff;
+    text-transform: capitalize;
+}
+.project-view {
+    background: #7370d8;
+    border: 1px solid #7370d8;
+    width: 185px;
+    height: 52px;
+    line-height: 50px;
+    white-space: nowrap;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+.Pricing-box:hover{
+    box-shadow: 0px 0px 30px 0px rgba(115, 120, 216, 0.3);
+    opacity: 1;
+}
+.project-btn.pricing-btn a:hover{
+    color:#7370d8;
+}   
+
+/* Pricing:the end */
