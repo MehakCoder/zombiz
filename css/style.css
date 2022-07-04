@@ -530,4 +530,32 @@ a.service-btn{
     background-color: #7370d8;
     padding: 58px 0 0;
 }
+.client-image{
+    padding: 35px 0 60px;
+    position: relative;
+}
 /* clients : the end */
+
+
+
+
+
+
+/* contact */
+.contact{
+    position: relative;
+    padding: 115px 0 120px;
+    background-image: url(../image/map.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+.contact::before{
+    position: absolute;
+    content: " ";
+    background: rgba(115,112,216,.8);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+/* contact us : the end */

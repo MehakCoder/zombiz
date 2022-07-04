@@ -715,19 +715,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-
-                    <div class="owl-carousel owl-theme owl-loaded">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage">
-                                <div class="owl-item"><a href="#"><img src="image/client1.png" alt="brand-image"></a>
-                                </div>
-                                <div class="owl-item"><a href="#"><img src="image/client2.png" alt="brand-image"></a>
-                                </div>
-                                <div class="owl-item"><a href="#"><img src="image/client3.png" alt="brand-image"></a>
-                                </div>
-                                <div class="owl-item"><a href="#"><img src="image/client4.png" alt="brand-image"></a>
-                                </div>
-                                <div class="owl-item"><a href="#"><img src="image/client5.png" alt="brand-image"></a>
+                    <div class="client-image">
+                        <div class="owl-carousel owl-theme owl-loaded">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item"><a href="#"><img src="image/client1.png"
+                                                alt="brand-image"></a>
+                                    </div>
+                                    <div class="owl-item"><a href="#"><img src="image/client2.png"
+                                                alt="brand-image"></a>
+                                    </div>
+                                    <div class="owl-item"><a href="#"><img src="image/client3.png"
+                                                alt="brand-image"></a>
+                                    </div>
+                                    <div class="owl-item"><a href="#"><img src="image/client4.png"
+                                                alt="brand-image"></a>
+                                    </div>
+                                    <div class="owl-item"><a href="#"><img src="image/client5.png"
+                                                alt="brand-image"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1100,7 +1106,7 @@
     </footer>
     <!-- footer-copyright end -->
 </body>
-<script src="js/jquery.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
@@ -1120,12 +1126,28 @@
             });
         });
     });
-$(window).on('load', function(){
-			$('.counter').counterUp({
-				delay: 10,
-				time: 3000
-			});
-        });	     
+    $(window).on('load', function () {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 3000
+        });
+    });
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    })             
 </script>
 
 </html>
