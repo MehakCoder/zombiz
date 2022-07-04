@@ -713,17 +713,22 @@
     <!-- Testemonial: the end -->
     <section class="clients">
         <div class="container">
-            <div class="clients-area">
-                <div class="owl-carousel owl-theme">
-                    <div class="item"><a href="#"><img src="image/client1.png" alt="brand-image"></a></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="clients-area">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><a href="#"><img src="image/client1.png" alt="brand-image"></a></div>
+                            <div class="item"><a href="#"><img src="image/client2.png" alt="brand-image"></a></div>
+                            <div class="item"><a href="#"><img src="image/client3.png" alt="brand-image"></a></div>
+                            <div class="item"><a href="#"><img src="image/client4.png" alt="brand-image"></a></div>
+                            <div class="item"><a href="#"><img src="image/client5.png" alt="brand-image"></a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!--clients:the end  -->
     <!--nwes start -->
     <section class="news">
@@ -1090,26 +1095,26 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/isotope-docs.min.js"></script>
 <script>
-    $(document).ready(function(){
-    $('.counter').each(function(){
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        },{
-            duration: 3500,
-            easing: 'swing',
-            step: function (now){
-                $(this).text(Math.ceil(now));
-            }
+    $(document).ready(function () {
+        $('.counter').each(function () {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 3500,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
         });
     });
-});
-// $(window).on('load', function(){	
+// $(window).on('load', function(){
 // 			$('.counter')
 // 				delay: 10,
 // 				time: 3000
 // 			});	
-		
-	
+
+
 </script>
 
 </html>

@@ -524,5 +524,10 @@ a.service-btn{
 .project-btn.pricing-btn a:hover{
     color:#7370d8;
 }   
-
 /* Pricing:the end */
+/* clients */
+.clients{
+    background-color: #7370d8;
+    padding: 58px 0 0;
+}
+/* clients : the end */
