@@ -252,33 +252,7 @@ margin-top: 15px;
     max-width: 306px;
     margin: 0 auto;
 }
-
-
 /* we-do:the end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* About us */
 .About-us {
@@ -537,24 +511,7 @@ a.service-btn {
     margin-top: 15px;
 
 }
-
-
 /* Project:the end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -670,6 +627,18 @@ a.service-btn {
     color: #7370d8;
 }
 /* Pricing:the end */
+/* testmional */
+.testimonial{
+    padding:116px 0 89px
+}
+.section-header h2 span{
+    color: #4d4e54;
+}
+.client-avater img{
+    
+}
+
+/* testmional : the end */
 /* clients */
 .clients {
     background-color: #7370d8;
