@@ -614,35 +614,24 @@ a.service-btn {
     text-transform: uppercase;
     transition: 0.5s ease-in-out;
 }
-
 .Pricing-box:hover {
     box-shadow: 0px 0px 30px 0px rgba(115, 120, 216, 0.3);
     opacity: 1;
 }
-
 .project-btn.pricing-btn a:hover {
     color: #7370d8;
 }
-
 /* Pricing:the end */
 /* clients */
 .clients {
     background-color: #7370d8;
     padding: 58px 0 0;
 }
-
 .client-image {
     padding: 35px 0 60px;
     position: relative;
 }
-
 /* clients : the end */
-
-
-
-
-
-
 /* contact */
 .contact {
     position: relative;
@@ -826,6 +815,142 @@ a.service-btn {
     color: #5549af;
     border: 1px solid #f5f5fb;
 }
-
-
 /* New Project : the end */
+/* footer */
+.hm-footer{
+    padding-bottom: 68px;
+    background-color: #212135;
+}
+.hm-footer-details{
+    margin-top: 120px;
+}
+.hm-footer-widget{
+    margin-bottom: 30px;
+}
+.hm-foot-title .logo{
+    margin-bottom: 32px;
+}
+.hm-foot-para p{
+    color: #aaa;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: initial;
+    max-width: 260px;
+}
+.hm-foot-icon{
+    margin-top: 33px;
+}
+.hm-foot-icon ul{
+    display:inline-flex;
+    margin-left: -11px;
+   list-style: none;
+}
+.hm-foot-icon ul li {
+    width: 32px;
+    height: 32px;
+    background: #aaa;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+}
+.hm-foot-icon ul li>a>i {
+    color: #212135;
+}
+.hm-foot-icon ul li:hover {
+	background: #fff;
+}
+.hm-footer-widget{
+    margin-bottom: 30px;
+}
+.hm-foot-title h4 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 32px;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+}
+ .footer-menu ul{
+  display: grid;
+}
+.footer-menu li a {
+    font-size: 14px;
+    color: #aaa;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+.hm-para-news a{
+    color: #888;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: initial;
+    max-width: 258px;
+    margin-bottom: 8px;
+    transition: all 0.2s linear;
+}
+.hm-para-news span {
+    color: #aaa;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.footer-line {
+    padding: 30px 0 35px;
+}
+.hm-foot-email {
+    display: flex;
+    margin-top: 35px;
+}
+.foot-email-box input[placeholder="Email Address"] {
+    color: #8b8b8b;
+    font-size: 16px;
+}
+.foot-email-box .form-control {
+    background: #3d3d4d;
+    display: block;
+    padding: 32px 32px 33px;
+    height: 54px;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+}
+.foot-email-subscribe button{
+  width: 65px;
+  height: 65px;
+  background: #7370d8;
+  color: #fff;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  border: 0;   
+}
+.footer-copyright {
+	background:#1a1a2a;
+	padding: 30px 0 35px;
+}
+.foot-copyright{
+	color:#8b8b8b;
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+}
+/* foot-menu  */
+.foot-menu ul li {
+    float: left;
+    padding-left:15px;
+    text-transform: capitalize;
+}
+.foot-menu li a{
+	color:#8790af;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+	display: inline-block;
+    transition: all 0.2s linear;
+}
+.foot-menu  li {
+	position:relative;
+	padding-left:42px;
+}
+/* footer :the end */
