@@ -206,7 +206,55 @@ Brand:focus {
 }
 
 /* Menu-bar : the end */
+/* we-do */
+.we-do{
+    padding: 115px 0 82px;
+}
+.we-do-details{
+    margin-top: 42px;
+    margin-bottom: 60px; 
+}
+.single-we-do-box{
+    background-color: #fff;
+    box-shadow: 0 0 5px rgb(35 37 41 / 10%);
+    min-height: 345px;
+    padding-top: 60px;
+    margin-top: 15px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.single-we-do-box:hover{
+    box-shadow: 0 0 20px rgb(36 38 42 / 10%);
+}
+.we-do-info{
+    font-family:'Playfair Display', serif; 
+    text-transform: capitalize;
+}
+.we-do-img img{
+     margin-right: 5px;
+     transition: 0.5s;
+}
+.we-do-topics{
+    margin-top: 32px;
+    margin-bottom: 27px;
+}
+.we-do-topics h2 a{
+    font-size: 20px;
+    color: #44454f;  
+}
+.we-do-comment{
+margin-top: 15px;
+}
+.we-do-comment p {
+    color: #888;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 306px;
+    margin: 0 auto;
+}
 
+
+/* we-do:the end */
 
 
 
@@ -972,7 +1020,7 @@ a.service-btn {
     border-radius: 5px;
     transition: 0.5s;
 }
-#scroll-top .return-to-top:hover{
+#scroll-Top .return-to-top:hover{
     background: #7370d8;
     color: #fff;
     border: 1px solid #7370d8;
