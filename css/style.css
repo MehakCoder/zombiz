@@ -954,3 +954,28 @@ a.service-btn {
 	padding-left:42px;
 }
 /* footer :the end */
+/* scroll */
+#scroll-Top .return-to-top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 15;
+    color: #fff;
+    background: #7370d8;
+    border: 1px solid #7370d8;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#scroll-top .return-to-top:hover{
+    background: #7370d8;
+    color: #fff;
+    border: 1px solid #7370d8;
+    border-radius: 50%;
+}
+/* scroll : the end */

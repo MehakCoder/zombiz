@@ -1,4 +1,5 @@
 $(document).ready(function(){
+ 1.   // counter
     $(document).ready(function () {
         $('.counter').each(function () {
             $(this).prop('Counter', 0).animate({
@@ -18,6 +19,8 @@ $(document).ready(function(){
             time: 3000
         });
     });
+
+   2.  // logo
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
@@ -33,5 +36,20 @@ $(document).ready(function(){
                 items: 5
             }
         }
-    }) 
+    })
+    
+  3. //scroll to top  
+  $(window).on('scroll',function () {
+    if ($(this).scrollTop() > 600) {
+        $('.return-to-top').fadeIn();
+    } else {
+        $('.return-to-top').fadeOut();
+    }
+});
+$('.return-to-top').on('click',function(){
+        $('html, body').animate({
+        scrollTop: 0
+    }, 100);
+    return false;
+});
 });
