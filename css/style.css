@@ -693,6 +693,25 @@ a.service-btn {
     position: relative;
 }
 /* clients : the end */
+/* news */
+.news{
+    padding: 114px 0 95px;  
+}
+.section h2{
+    color: #4d4e54;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.section p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 32px;
+    line-height: 1.8;
+}
+/* news : the end */
 /* contact */
 .contact {
     position: relative;
