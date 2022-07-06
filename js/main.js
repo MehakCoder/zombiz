@@ -59,7 +59,7 @@ $(".testimonial-sliders").owlCarousel({
     loop:true,
     margin:100,
     nav:false,
-    dots:true,
+   dots:true,
     responsive:{
         0:{
             items:1
