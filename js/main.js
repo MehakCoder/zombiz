@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
 
    2.  // logo
-    $('.client-image').owlCarousel({
+    $('.brand-logo').owlCarousel({
         loop: true,
         margin: 10,
         nav: false,
@@ -55,7 +55,7 @@ $('.return-to-top').on('click',function(){
     return false;
 });
 4. //testimonial
-$(".testimonial-sliders").owlCarousel({
+$("#testimonial-sliders").owlCarousel({
     loop:true,
     margin:100,
     nav:false,
