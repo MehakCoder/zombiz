@@ -704,12 +704,23 @@ a.service-btn {
     font-weight: 700;
 }
 .section p {
+    color: #888;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 32px;
     line-height: 1.8;
+}
+.news-card{
+padding-bottom: 25px;
+margin-top: 70px;
+}
+.single-news-box{
+    box-shadow: 0 5px 30px 0 rgb(115 112 215 / 20%);
+    min-height: 504px;
+    margin-bottom: 13px;
+    transition: .5s;
 }
 /* news : the end */
 /* contact */
