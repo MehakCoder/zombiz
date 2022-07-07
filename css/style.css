@@ -146,6 +146,9 @@ textarea {
 }
 
 /* Header : the end */
+/* slider */
+
+/* slider:the end */
 .menu {
     z-index: 999;
 }
@@ -513,9 +516,92 @@ a.service-btn {
 }
 /* Project:the end */
 /* Our team */
-
-
-
+.Team{
+    padding:120px 0;
+    background-color: #908ddc;
+}
+.Team-detail{
+color: #fff;
+}
+.Team-detail h3{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700; 
+}
+.Team-detail p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 470px;
+    margin-top: 32px
+}
+.team-card{
+    padding: 75px 0 0 0;
+}
+.single-team-box{
+    position: relative;
+    width: 260px;
+    height: 352px;
+    transition: 0.5s ease-in-out;
+}
+.team-box-bg-1{
+    background: url(../image/team.jpg);
+}
+.team-box-bg-2{
+    background: url(../image/team3.jpg);
+}
+.team-box-bg-3{
+    background: url(../image/team2.jpg);
+}
+.team-box-bg-4{
+    background: url(../image/team3.jpg);
+}
+.team-box-inner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 19px 0 0 30px;
+    background: rgba(65,62,126,.8);
+    height: 90px;
+    transition: 0.7s;
+}
+.team-box-inner h3{
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+}
+.team-box-inner .team-meta{
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    font-family:'Poppins', sans-serif;
+    transition: 0.7s;
+}
+a.learn-btn,a:hover.learn-btn,a:focus.learn-btn{
+    color: #7086e6;
+    font-size:12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 8px;
+    padding-bottom: 18px;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.single-team-box:hover a.learn-btn{
+	opacity: 1;
+}
+.single-team-box:hover .team-box-inner{
+	height: 100px;
+}
+.single-team-box:hover{
+	box-shadow: 5px 5px 30px 5px rgba(65,62,126,.2);
+}
+.single-team-box.single-team-card:hover{
+	box-shadow: 0px 5px 35px 5px rgba(6,5,49,.2);
+}
 /* our team : the end */
 
 
