@@ -21,23 +21,28 @@ $(document).ready(function(){
     });
 
    2.  // logo
-    $('.brand-logo').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: false,
-        dots : false,
-        touchDrag:true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 3
-            },
-            1000: {
-                items: 5
+    $('#client').owlCarousel({
+        items:5,
+        loop:true,
+        smartSpeed: 1000,
+        autoplay:true,
+        dots:false,
+        autoplayHoverPause:true,
+        responsive:{
+                0:{
+                    items:2
+                },
+                415:{
+                    items:2
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
             }
-        }
+        });
     });
     
   3. //scroll to top  
@@ -73,4 +78,3 @@ $("#testimonial-sliders").owlCarousel({
     }    
 });
 
-});
