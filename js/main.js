@@ -77,6 +77,7 @@ $("#testimonial-sliders").owlCarousel({
         }
     }
 });
+5.//team
 $("#team-carousel").owlCarousel({
     loop:true,
     margin:10,
@@ -96,5 +97,22 @@ $("#team-carousel").owlCarousel({
         }
     }
 });
+6.//slider
+$(".carousel-inner").owlCarousel({
+    loop: true,
+    margin: 100,
+    nav: true,
+    dots:false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
 
-5.//team

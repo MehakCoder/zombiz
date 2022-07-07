@@ -147,7 +147,30 @@ textarea {
 
 /* Header : the end */
 /* slider */
-
+.slider-section{
+    position: relative;
+    z-index:1;
+}
+.carsoul-inner{
+    padding-top: 184px;
+    padding-bottom : 294px;
+}
+.owl-item-slider-1{
+    background-image: url(../image/banner1.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.owl-item-slider-2{
+    background-image: url(../image/banner2.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
 /* slider:the end */
 .menu {
     z-index: 999;
