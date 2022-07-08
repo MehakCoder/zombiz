@@ -64,11 +64,25 @@
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
+    font-size: 50px;
+    color: #fff;
     background: none;
-    color: inherit;
+    font-weight: 100;
     border: none;
-    padding: 0 !important;
-    font: inherit; }
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin: 0;
+    padding: 0;
+}
+.owl-carousel button.owl-dot{
+  width: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+left: 10%;
+}  
+
   .owl-carousel.owl-loaded {
     display: block; }
   .owl-carousel.owl-loading {

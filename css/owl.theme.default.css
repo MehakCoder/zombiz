@@ -18,10 +18,16 @@
     background: #D6D6D6;
     display: inline-block;
     cursor: pointer;
-    border-radius: 3px; }
+    border-radius: 3px; 
+    position: absolute;
+    top: 70%;
+    bottom: 0;
+    left: 7%;
+     
+  }
     .owl-theme .owl-nav [class*='owl-']:hover {
-      background: #869791;
-      color: #FFF;
+      background: #fff;
+      color: #5549af;
       text-decoration: none; }
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;

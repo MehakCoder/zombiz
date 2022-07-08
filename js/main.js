@@ -98,11 +98,12 @@ $("#team-carousel").owlCarousel({
     }
 });
 6.//slider
-$(".carousel-inner").owlCarousel({
+$(".Banner-inner").owlCarousel({
     loop: true,
     margin: 100,
     nav: true,
     dots:false,
+    autoplay:true,
     responsive: {
         0: {
             items: 1
@@ -115,4 +116,18 @@ $(".carousel-inner").owlCarousel({
         }
     }
 });
+// 7.//Sticky
+// window.onscroll = function() {myFunction()};
+
+// var Menu = document.getElementsByClassName("Menu");
+// var sticky = Menu.offsetTop;
+
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     Menu.classList.add("sticky")
+//   } else {
+//     Menu.classList.remove("sticky");
+//   }
+// }
+
 
