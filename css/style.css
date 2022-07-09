@@ -558,7 +558,7 @@ a.service-btn {
 	height:100%;
 	width:100%;
 	background:rgba(115,112,216,.75);
-    display:flex;
+	display:flex;
 	align-items:center;
 	text-transform: capitalize;
 	justify-content:center;
@@ -581,13 +581,39 @@ a.service-btn {
 	margin-top: 15px;
 }
 .isotope .item:hover .isotope-overlay{
+	-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
     transform:scale(1);
 	top:0;
 }
+
 .project-btn{
 	margin-top: 49px;
 	letter-spacing: 1.2px;
 }
+.project-view {
+    background: #7370d8;
+    border: 1px solid #7370d8;
+    width:185px;
+    height:52px;
+    line-height: 50px;
+    white-space: nowrap;
+   	text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.project-view:hover {
+	color: #7370d8;
+	background: transparent;
+}
+
 /* Project:the end */
 /* Our team */
 .Team{
