@@ -508,73 +508,85 @@ a.service-btn {
 
 /* statistics : the end */
 /* Project */
-.Project {
-    padding: 117px 0 109px;
+.project{
+	padding: 117px 0 109px;
 }
-.Project-detail {
-    margin-bottom: 35px;
+.project-content {
+    margin-top:62px;
 }
-.Project-detail h2 {
-    color: #44454f;
-    font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+.project-header h2{
+	color: #44454f;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
 }
-.Project-detail p {
-    color: #888;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 32px
+.project-header p{
+	color: #888;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	max-width:470px;
+    margin-top: 32px;
 }
-.item-big img {
-    height: 604px;
-    float: left;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 30px;
+.isotope:after {
+	content: '';
+	display: block;
+	clear: both;
 }
-.project-image {
-    float: left;
-    height: 286px;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 30px;
+.isotope .col-sm-6 {
+    width:auto;
 }
-.Gallery-content{
-    position: relative;
+.isotope .item {
+	float: left;
+	height: 286px;
+	position:relative;
+	overflow:hidden;
+	margin-bottom: 30px;
 }
-.Gallery-content img {
-    width: 100%;
-    height: 100%;
-    transition: 0.5s;
-}
-.item-big:hover{
-    
-}
-.project-overlay {
-    position: absolute;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(115,112,216,.75);
-    transition: .7s ease;
-    transform: scale(0);
-}
-.project-overlay a {
-    color: #fff;
-    font-size: 24px;
-    font-family: 'Lato', sans-serif;
-}
-.project-overlay h3 {
-    margin-top: 25px;
-}
+.isotope .item.big-height {height: 604px;}
 
-.project-overlay p {
-    color: #fff;
-    font-size: 15px;
-    font-family: 'Lato', sans-serif;
-    margin-top: 15px;
-
+.isotope .item img{
+	width:100%;
+	height:100%;
+	transition:.5s;
+    transition: .5s;
+}
+.isotope .item:hover  img{
+    transform:scale(1.5);
+}
+.isotope-overlay{
+	position:absolute;
+	height:100%;
+	width:100%;
+	background:rgba(115,112,216,.75);
+    display:flex;
+	align-items:center;
+	text-transform: capitalize;
+	justify-content:center;
+	flex-direction: column;
+    transform:scale(0);
+    transition: .7s;
+}
+.isotope-overlay h3 a,.isotope-overlay  a{
+	color:#fff;	
+	font-size:24px;
+	font-family: 'Lato', sans-serif;
+}
+.isotope-overlay h3 a{
+	margin-top: 20px;
+}
+.isotope-overlay p{
+	color:#fff;	
+	font-size:14px;
+	font-family: 'Lato', sans-serif;
+	margin-top: 15px;
+}
+.isotope .item:hover .isotope-overlay{
+    transform:scale(1);
+	top:0;
+}
+.project-btn{
+	margin-top: 49px;
+	letter-spacing: 1.2px;
 }
 /* Project:the end */
 /* Our team */
@@ -888,6 +900,7 @@ margin-top: 70px;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 .single-news-box:hover .news-box-bg img  {
     transform: scaleY(1.05);  
 }
@@ -920,11 +933,19 @@ margin-top: 70px;
     transition: .7s ease;
     transform: scale(0);
   }
-  .overlay a{
+  .overlay a.icons{
     font-size: 30px;
+  }
+  .overlay a.icons:hover{
+    color: #fff;
   }
  .news-box-bg:hover .overlay{
     transform: scale(1.05);
+ }
+ .project-btn .project-view:hover{
+    background-color: #f9faff;
+    border: 1px solid #5549af;
+    color: #5549af;
  }
 
 /* news : the end */
