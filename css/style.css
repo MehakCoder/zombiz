@@ -1510,7 +1510,80 @@ p.testimonial-body {
 	font-size:20px;
 }
 /* title-page-the end */
+/* sub-page 2: our history */
+.About-History{
+    padding: 115px 0 90px;
+}
+.About-history-img img{
+    box-shadow: 0 0 20px rgba(112, 134, 230, .2);
+    height: 435px;
+}
+.About-History-content h2{
+	font-size:30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	padding: 16px 0 20px 0;
+}
+.About-History-content p{
+    color:#888;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.7;
+}
+/* Our history : the end */
+/* Timeline: start */
+.Main-timeline{
+    position: relative;
+    margin-top: 39px;
+    transition: all 0.4s ease 0s;
+}
+.Main-timeline:before{
+    content: "";
+    width: 1px;
+    background: #dbdbdb;
+    position: absolute;
+    top: 5.2%;
+    left: 14.5%;
+    height: 80%;
+}
+.year-time h3{
+    font-size: 16px;
+    color: #4d4e54;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 14px;
+}
+.timeline-content{
+    position: relative;
+    left: 65px;
+    top: -20px;
+    margin-left: 5px;
+    transition: all 0.3s ease 0s;
+}
+.timeline-content span>i{
+    display: inline-block;
+    color: #7370d8;
+    position: relative;
+    background: #fff;
+}
+.timeline-content .description{
+    font-size: 14px;
+    color: #888;
+    margin-left: 45px;
+    margin-top: -30px;
+}
+/* Vision */
+.vision .About-History-content h2 {
+    padding: 16px 0 20px 0;
+}
+.vision .timeline-content {
+    position: relative;
+    margin-top: 39px;
+    transition: all 0.4s ease 0s;
+}
 
 /* About-page: the end */
+
 
 /* Sub-pages: the end */
