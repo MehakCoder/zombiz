@@ -1617,6 +1617,8 @@ p.testimonial-body {
 .about-part.Contact-part{
     background: url(../image/about-banner.jpg);
 }
-
 /* contact: the end */
+.about-part.Blog-part{
+    background: url(../image/blog-banner.jpg)no-repeat center;
+}
 /* Sub-pages: the end */
