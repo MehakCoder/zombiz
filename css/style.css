@@ -1572,8 +1572,12 @@ p.testimonial-body {
     color: #888;
     margin-left: 45px;
     margin-top: -30px;
+    font-family: 'Poppins', sans-serif;
 }
 /* Vision */
+.vision{
+    padding: 115px 0 90px;
+}
 .vision .About-History-content h2 {
     padding: 16px 0 20px 0;
 }
@@ -1581,9 +1585,12 @@ p.testimonial-body {
     position: relative;
     margin-top: 39px;
     transition: all 0.4s ease 0s;
+    left: -7px;
+    width: 500px
 }
-
+.Mission-img img{
+    box-shadow: 0 0 20px rgba(112, 134, 230, .2);
+    height: 435px;
+}
 /* About-page: the end */
-
-
 /* Sub-pages: the end */
