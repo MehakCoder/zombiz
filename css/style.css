@@ -1603,4 +1603,23 @@ p.testimonial-body {
     background: url(../image/project-banner.jpg) no-repeat center;
 }
 /* Project : the end */
+/* Team */
+.about-part.Team-part{
+  background: url(../image/team-banner.jpg) no-repeat center;
+}
+.team-card.team-mrt-70 {
+    margin-top: -70px;
+}
+.Team.Team-centre{
+    background-color: #fff;
+}
+.Team.Team-centre .Team-detail h2{
+    color: #000;
+}
+.Team.Team-centre .Team-detail p{
+    color: #000;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+/*Team : the end */
 /* Sub-pages: the end */
