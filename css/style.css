@@ -1594,10 +1594,9 @@ p.testimonial-body {
 }
 /* About-page: the end */
 /* Service */
-.about-part .service-part{
+.about-part.service-part{
     background: url(../image/service-banner.jpg) no-repeat center;
 }
-
-
 /* Service : the end */
+
 /* Sub-pages: the end */
