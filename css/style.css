@@ -1598,5 +1598,9 @@ p.testimonial-body {
     background: url(../image/service-banner.jpg) no-repeat center;
 }
 /* Service : the end */
-
+/* Project */
+.about-part.Project-part{
+    background: url(../image/project-banner.jpg) no-repeat center;
+}
+/* Project : the end */
 /* Sub-pages: the end */
