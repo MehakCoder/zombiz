@@ -1618,7 +1618,12 @@ p.testimonial-body {
     background: url(../image/about-banner.jpg);
 }
 /* contact: the end */
+/* Blog */
 .about-part.Blog-part{
     background: url(../image/blog-banner.jpg)no-repeat center;
 }
+.blog-left{
+    display: flex;
+}
+/* Blog : the end */
 /* Sub-pages: the end */
