@@ -1682,6 +1682,44 @@ p.testimonial-body {
     border: 1px solid #888;
 }
 /* Pagination : the end */
-
+.blog-widget{
+    position: relative;
+    padding: 0 0 34px 0;
+}
+blogs-widget h2{
+	color:#4d4e54;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.blog-widget .form-control{
+    position: relative;
+    border-radius: 0;
+    box-shadow: none;
+    height: 50px;
+    border: 1px solid #d7d7d7;
+}
+.blog-widget input{
+    color: #888;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+.blog-search-icons a{
+    color: #888;
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    font-size: 20px;
+}
+.blog-lists{
+    margin-top: 20px;
+}
+.blog-lists{
+    
+}
 /* Blog : the end */
 /* Sub-pages: the end */
