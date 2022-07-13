@@ -1638,6 +1638,7 @@ p.testimonial-body {
     text-align: center;
     font-size: 70px;
 }
+/* Pagaination : start */
 .pagination-part .pagination {
     margin-top: 63px;
 }
@@ -1680,5 +1681,7 @@ p.testimonial-body {
 .pagination-part .pagination>li:nth-child(3)>a{
     border: 1px solid #888;
 }
+/* Pagination : the end */
+
 /* Blog : the end */
 /* Sub-pages: the end */
