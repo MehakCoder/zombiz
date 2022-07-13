@@ -1638,10 +1638,31 @@ p.testimonial-body {
     text-align: center;
     font-size: 70px;
 }
-.pagination-part {
-    text-align: center;
+.pagination-part .pagination {
+    margin-top: 63px;
 }
-
+.pagination{
+    display: inline-flex;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.pagination>li {
+    display: inline;
+}
+.pagination-part .pagination>li>a, .pagination-part .pagination>li>span{
+    position: relative;
+    float: left;
+    padding: 11px 17px;
+    margin-left: 25px;
+    line-height: 1.42857143;
+    color: #888;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    border:0;
+    border-radius: 0; 
+}
 .pagination-part .pagination>.active>a, 
 .pagination-part .pagination>.active>a:focus,
 .pagination-part .pagination>.active>a:hover,
@@ -1654,29 +1675,10 @@ p.testimonial-body {
     background-color:#908edf;
     border-color: #908edf;
 }
-.pagination-part .pagination>li>a,
-.pagination-part .pagination>li>span {
-    position: relative;
-    float: left;
-    padding: 11px 17px;
-    margin-left: 25px;
-    line-height: 1.42857143;
-    color: #888;
-    font-size: 20px;
-    text-decoration: none;
-    background-color: #fff;
-    border:0;
-    border-radius: 0;
-}
 .pagination-part .pagination>li:nth-child(1)>a,
 .pagination-part .pagination>li:nth-child(2)>a,
 .pagination-part .pagination>li:nth-child(3)>a{
     border: 1px solid #888;
 }
-.pagination-part .pagination {
-    margin-top: 63px;
-}
-/*pagination*/
-
 /* Blog : the end */
 /* Sub-pages: the end */
