@@ -1848,5 +1848,18 @@ p.testimonial-body {
 .extra-para{
     margin-top: 0;
 }
+.article-icons{
+    padding: 22px 0 43px;
+    margin: 31px 0 47px;
+    display: inline-flex;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.article-icons .blog-icons,
+.article-icons .blog-tag {
+    display: flex;
+   
+}
+
 /* Blog-single : the end */
 /* Sub-pages: the end */

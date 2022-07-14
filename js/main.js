@@ -97,13 +97,52 @@ $("#team-carousel").owlCarousel({
         }
     }
 });
+$("#team-carousel-1").owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    touchDrag:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+$("#team-carousel-2").owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    touchDrag:true,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
 6.//slider
 $(".Banner-inner").owlCarousel({
     loop: true,
     margin: 100,
     nav: true,
+    navSpeed:2,
     dots:false,
-    autoplay:true,
+    autoplay:false,
     responsive: {
         0: {
             items: 1
