@@ -1684,9 +1684,9 @@ p.testimonial-body {
 /* Pagination : the end */
 .blog-widget{
     position: relative;
-    padding: 0 0 34px 0;
+    margin: 0 0 34px 0;
 }
-blog-widget h2{
+.blog-widget h2{
 	color:#4d4e54;
 	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
@@ -1741,8 +1741,8 @@ blog-widget h2{
     display: flex;
     padding: 0px 0 25px;
 }
-.blog-text a img{
-    width: 100%;
+.blog-img a img{
+    width: 150px;
     height: 100%;
 }
 .blog-text p a{
@@ -1764,6 +1764,21 @@ blog-widget h2{
     font-family: 'Poppins', sans-serif;
     margin-left: 20px;
     padding-top: 8px;
+}
+.blog-tags {
+    padding: 38px 0 0 0;
+}
+.blog-widget .Tag {
+    color: #4d4e54;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    background-color: #fff;
+    border:1px solid  #4d4e54;
+    margin: 0px 10px 10px 0;
+    padding: 3px 11px 3px 11px;
+    transition: .5s;
 }
 /* Blog : the end */
 /* Sub-pages: the end */
