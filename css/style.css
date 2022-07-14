@@ -1848,18 +1848,47 @@ p.testimonial-body {
 .extra-para{
     margin-top: 0;
 }
-.article-icons{
-    padding: 22px 0 43px;
-    margin: 31px 0 47px;
-    display: inline-flex;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+.bl-single-contact-box{
+	border-top:1px solid #ebebeb;
+	border-bottom:1px solid #ebebeb;
+	padding: 22px 0 43px;
+	margin: 31px 0 47px;
 }
-.article-icons .blog-icons,
-.article-icons .blog-tag {
-    display: flex;
-   
+.bl-list-icon {
+    float: left;
+}
+.bl-list-icon ul {
+	display: flex;
+}
+.bl-list-icon  ul li a{
+	color: #a4a4a4;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+	padding-right: 14px;
+	cursor:pointer;
+}
+.bl-single-tag p{
+	color: #a4a4a4;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.bl-single-tag p span a{ 
+	color: #636363;
+	text-transform: capitalize;
+}
+.bl-single-tag {
+    float: right;
+}
+/*bl-single-contact-box*/
+/* comment-area */
+.comments-area h3 {
+    color: #4d4e54;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
 }
 
+
+/* comment-area : the end */
 /* Blog-single : the end */
 /* Sub-pages: the end */
