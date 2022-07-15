@@ -42,6 +42,62 @@
                                 <a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">
                                     Log in
                                 </a>
+                                <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog"
+                                    aria-labelledby="mySmallModalLabel">
+                                    <div class="modal-dialog modal-sm" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">
+                                                        <i class="fa fa-close"></i>
+                                                    </span>
+                                                </button>
+                                                <h4 class="modal-title" id="mySmallModalLabel">
+                                                    Sign In
+                                                </h4>
+                                                <form class="sm-frm" style="padding:25px">
+                                                    <label>Name :</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Email">
+                                                    <label>Passoward :</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Enter Passoward">
+                                                    <label><input type="checkbox" name="personality"> Remenber
+                                                        Me</label>
+                                                    <button type="button"
+                                                        class="btn btn-default pull-right">Submit</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
+                                    aria-labelledby="myLargeModalLabel">
+                                    <div class="modal-dialog modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">
+                                                        <i class="fa fa-close"></i>
+                                                    </span>
+                                                </button>
+                                                <h4 class="modal-title" id="myLargeModalLabel">Register</h4>
+                                                <form class="lg-frm" style="padding:25px">
+                                                    <label>Name :</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Name">
+                                                    <label>Email :</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Email">
+                                                    <label>Passoward :</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Enter Passoward">
+                                                    <button type="button"
+                                                        class="btn btn-default pull-right">Submit</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li>
                                 <div class="social-icons">
@@ -83,9 +139,11 @@
                             <li><a href="Contact.html">Contact</a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
                             <li class="search">
-                                <form>
-                                    <input type="text" name="serach" placeholder="search">
-                                    <a href="#"><span><i class="fa fa-search"></i></span></a>
+                                <form action="">
+                                    <a href="#">
+                                        <span id='toggle-search'><i class="fa fa-search"></i></span>
+                                    </a>
+                                    <input id='searchBar' type="search" name="search" placeholder="Search...." >
                                 </form>
                             </li>
                         </ul>
@@ -141,100 +199,102 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
     </section>
     <!-- slider : the end -->
     <section class="we-do">
         <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="Services-header text-center">
-                    <h2>what we do</h2>
-                    <p>Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
-            </div>
-        </div>
-        <div class="we-do-details">
             <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <div class="single-we-do-box text-center">
-                        <div class="we-do-description">
-                            <div class="we-do-info">
-                                <div class="we-do-img">
-                                    <img src="image/consultency.png" alt="image of consultency" />
+                <div class="col-md-12">
+                    <div class="Services-header text-center">
+                        <h2>what we do</h2>
+                        <p>Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="we-do-details">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="single-we-do-box text-center">
+                            <div class="we-do-description">
+                                <div class="we-do-info">
+                                    <div class="we-do-img">
+                                        <img src="image/consultency.png" alt="image of consultency" />
+                                    </div>
+                                    <div class="we-do-topics">
+                                        <h2>
+                                            <a href="#">
+                                                Business Consultancy
+                                            </a>
+                                        </h2>
+                                    </div>
                                 </div>
-                                <div class="we-do-topics">
-                                    <h2>
-                                        <a href="#">
-                                            Business Consultancy
-                                        </a>
-                                    </h2>
+                                <div class="we-do-comment">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ul.
+                                    </p>
                                 </div>
-                            </div>
-                            <div class="we-do-comment">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ul.
-                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <div class="single-we-do-box text-center">
-                        <div class="we-do-description">
-                            <div class="we-do-info">
-                                <div class="we-do-img">
-                                    <img src="image/busisness_grow.png" alt="image of business" />
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="single-we-do-box text-center">
+                            <div class="we-do-description">
+                                <div class="we-do-info">
+                                    <div class="we-do-img">
+                                        <img src="image/busisness_grow.png" alt="image of business" />
+                                    </div>
+                                    <div class="we-do-topics">
+                                        <h2>
+                                            <a href="#">
+                                                help to grow Business
+                                            </a>
+                                        </h2>
+                                    </div>
                                 </div>
-                                <div class="we-do-topics">
-                                    <h2>
-                                        <a href="#">
-                                            help to grow Business
-                                        </a>
-                                    </h2>
+                                <div class="we-do-comment">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ul.
+                                    </p>
                                 </div>
-                            </div>
-                            <div class="we-do-comment">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ul.
-                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <div class="single-we-do-box text-center">
-                        <div class="we-do-description">
-                            <div class="we-do-info">
-                                <div class="we-do-img">
-                                    <img src="image/support-logo.png" alt="image of support" />
-                                </div>
-                                <div class="we-do-topics">
-                                    <h2>
-                                        <a href="#">
-                                            great support
-                                        </a>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="single-we-do-box text-center">
+                            <div class="we-do-description">
+                                <div class="we-do-info">
+                                    <div class="we-do-img">
+                                        <img src="image/support-logo.png" alt="image of support" />
+                                    </div>
+                                    <div class="we-do-topics">
+                                        <h2>
+                                            <a href="#">
+                                                great support
+                                            </a>
 
-                                    </h2>
+                                        </h2>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="we-do-comment">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ul.
-                                </p>
+                                <div class="we-do-comment">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ul.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <!-- </div> -->
+            <!-- </div> -->
 
     </section>
     <!-- we-do : the end -->
@@ -486,7 +546,7 @@
                                                 <img src="image/project2.jpg" alt="portfolio image">
                                                 <div class="isotope-overlay">
                                                     <a href="project.html">
-                                                        <i class="fa fa-link"></i> 
+                                                        <i class="fa fa-link"></i>
                                                     </a>
                                                     <h3>
                                                         <a href="project.html">
@@ -1209,6 +1269,7 @@
     <!-- footer-copyright end -->
 </body>
 <script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
 <script src="js/waypoints.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
 <script src="js/owl.carousel.js"></script>

@@ -144,6 +144,21 @@ textarea {
 .social-icons li a {
     margin-left: 14px;
 }
+.modal-header {
+    border-bottom: none;
+}
+.modal-title  {
+    font-size: 30px;
+    font-weight: 500;
+    color: #eb1b33;
+}
+.lg-frm button,
+.sm-frm button {
+    margin-top: 25px;
+    background: transparent;
+    border-color: #eb1b33;
+    color: #eb1b33;	
+}
 
 /* Header : the end */
 /* slider */
@@ -262,7 +277,7 @@ Brand:focus {
     top: 40px;
 }
 
-.search input {
+.search #searchBar {
     position: absolute;
     top: 60px;
     right: -17px;
@@ -276,8 +291,15 @@ Brand:focus {
     opacity: 0;
 }
 
-.search input.active {
+.search #searchBar {
     border-radius: 0 4px;
+}
+.search .toggle-search{
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+    z-index: 1;
+    color: #fff;
 }
 
 /* Menu-bar : the end */

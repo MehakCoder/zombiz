@@ -155,19 +155,4 @@ $(".Banner-inner").owlCarousel({
         }
     }
 });
-// 7.//Sticky
-// window.onscroll = function() {myFunction()};
-
-// var Menu = document.getElementsByClassName("Menu");
-// var sticky = Menu.offsetTop;
-
-// function myFunction() {
-//   if (window.pageYOffset >= sticky) {
-//     Menu.classList.add("sticky")
-//   } else {
-//     Menu.classList.remove("sticky");
-//   }
-// }
-
-
 
