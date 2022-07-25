@@ -257,7 +257,40 @@ textarea {
 .navbar-toggler{
     background-color: transparent;
     border: 1px solid #000;
-    background: url(../image/menu-icon.svg) no-repeat;
+    background: url(../image/menu-icon.svg) no-repeat center;
+}
+.search1 span {
+	top:16px;
+}
+.search1 input {
+	top:40px;
+}
+.search1 span {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    color: #fff;
+}
+.search1 input {
+    position:relative;
+    top: 40px;
+    right: -17px;
+    width: 15px;
+    height: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding:20px;
+    border: 0;
+    background: 0;
+    outline: 0;
+    
+}
+.search1 input.active{
+	border-radius: 0 4px;
+}
+.search1 :hover >input{
+ width: 150px;
+  background-color: #fff;
 }
 /* Menu-bar : the end */
 /* we-do */
