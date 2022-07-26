@@ -34,28 +34,24 @@
                     <div class="book-info">
                         <ul>
                             <li class="reg">
-                                <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">
-                                    Register
-                                </a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</a>
                                 /
-                                <a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">
-                                    Log in
-                                </a>
-                                <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog"
-                                    aria-labelledby="mySmallModalLabel">
-                                    <div class="modal-dialog modal-sm" role="document">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">Log in</a>
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
+                                                <h4 class="modal-title" id="exampleModalLabel"">
+                                                Sign In
+                                            </h4>
+                                            <button type=" button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close">
-                                                    <span aria-hidden="true">
-                                                        <i class="fa fa-close"></i>
-                                                    </span>
-                                                </button>
-                                                <h4 class="modal-title" id="mySmallModalLabel">
-                                                    Sign In
-                                                </h4>
-                                                <form class="sm-frm" style="padding:25px">
+                                                    </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form class="sm-frm" style="padding:5px">
                                                     <label>Name :</label>
                                                     <input type="text" class="form-control" placeholder="Enter Email">
                                                     <label>Passoward :</label>
@@ -70,18 +66,19 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog"
-                                    aria-labelledby="myLargeModalLabel">
-                                    <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal fade" id="exampleModal1" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
+                                                <h4 class="modal-title" id="exampleModalLabel">
+                                                    Register
+                                                </h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close">
-                                                    <span aria-hidden="true">
-                                                        <i class="fa fa-close"></i>
-                                                    </span>
                                                 </button>
-                                                <h4 class="modal-title" id="myLargeModalLabel">Register</h4>
+                                            </div>
+                                            <div class="modal-body">
                                                 <form class="lg-frm" style="padding:25px">
                                                     <label>Name :</label>
                                                     <input type="text" class="form-control" placeholder="Enter Name">
@@ -1292,6 +1289,6 @@
 <script src="js/waypoints.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
 <script src="js/owl.carousel.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js">s</script>
 
 </html>
