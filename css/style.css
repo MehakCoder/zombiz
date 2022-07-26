@@ -12,11 +12,6 @@ body {
     position: relative;
     z-index: 2;
 }
-
-.container {
-    border: 1px solid black;
-}
-
 body {
     font-size: 14px;
     background: #fff;
@@ -31,8 +26,6 @@ a:active,
 a:focus {
     display: inline-block;
     text-decoration: none;
-    font-size: 14px;
-    padding: 0;
 }
 
 h1,
@@ -87,6 +80,8 @@ textarea {
 .header li a {
     color: #888;
     outline: 0;
+    font-size: 14px;
+    padding: 0;
 }
 
 .book-info-left li {
@@ -113,7 +108,7 @@ textarea {
 }
 
 .book-info li a {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 7px;
     transition: 0.5;
@@ -246,10 +241,22 @@ textarea {
 /* wrapper-sticky */
 .wrapper-sticky{
 	background: rgba(115,112,216,1);
-    padding: 35px 0;
+    padding: 25px 0;
 }
 .bg-light{
     background: transparent !important;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding-left: 27px;
+    transition: .5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #f9faff;
+    font-weight: bold;
 }
 .nav-link{
     color: #fff;
@@ -258,6 +265,14 @@ textarea {
     background-color: transparent;
     border: 1px solid #000;
     background: url(../image/menu-icon.svg) no-repeat center;
+}
+.cart span{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    color: #fff; 
+    top:16px;
+    padding-left: 25px;
 }
 .search1 span {
 	top:16px;
@@ -270,6 +285,7 @@ textarea {
     cursor: pointer;
     z-index: 1;
     color: #fff;
+    padding-left: 27px;
 }
 .search1 input {
     position:relative;
@@ -280,10 +296,9 @@ textarea {
     border-radius: 4px;
     font-size: 14px;
     padding:20px;
-    border: 0;
-    background: 0;
-    outline: 0;
-    
+   background: 0;
+   border: 0;
+   outline: 0;
 }
 .search1 input.active{
 	border-radius: 0 4px;
