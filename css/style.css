@@ -304,7 +304,7 @@ textarea {
 	border-radius: 0 4px;
 }
 .search1 :hover >input{
- width: 150px;
+   width: 150px;
   background-color: #fff;
 }
 /* Menu-bar : the end */
