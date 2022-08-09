@@ -32,16 +32,19 @@ h6 {
     margin: 0;
     text-transform: capitalize;
 }
-h2{
-    font-family: 'Playfair Dispaly',serif;
+
+h2 {
+    font-family: 'Playfair Dispaly', serif;
     font-weight: 700;
     color: #44454f;
     line-height: 1.5;
 }
-h2 a{
+
+h2 a {
     color: #44454f;
     font-weight: 500;
 }
+
 p {
     color: #888;
     line-height: 1.5;
@@ -94,7 +97,8 @@ textarea {
     transition: 0.5s;
 }
 
-.Project-button a:hover,.single-contact-btn:hover button.contact-btn {
+.Project-button a:hover,
+.single-contact-btn:hover button.contact-btn {
     background-color: #fff;
     color: #7370d8;
 }
@@ -280,15 +284,19 @@ textarea {
     position: relative;
     z-index: 1;
 }
+
 .slide-content h2 {
+    font-size: 70px;
     font-weight: 500;
-    line-height: 1.5;
+    margin-bottom: 27px;
 }
+
 .slide-content p {
     font-size: 24px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 51px;
 }
+
 .owl-item-slider-1 {
     background-image: url(../image/banner1.jpg);
     position: relative;
@@ -299,6 +307,7 @@ textarea {
     padding-top: 184px;
     padding-bottom: 192px;
 }
+
 .owl-item-slider-2 {
     background-image: url(../image/banner2.jpg);
     position: relative;
@@ -335,15 +344,17 @@ textarea {
 .we-do {
     padding: 115px 0 82px;
 }
+
 .Services-header h2 {
     font-size: 30px;
     margin-bottom: 28px;
 }
+
 .Services-header p {
-    margin: 0 auto;
     padding-left: 19px;
     line-height: 1.8;
 }
+
 .we-do-details {
     margin-top: 42px;
     margin-bottom: 60px;
@@ -360,23 +371,28 @@ textarea {
 .single-we-do-box:hover {
     box-shadow: 0 0 20px rgb(36 38 42 / 10%);
 }
+
 .we-do-img {
     margin-right: 5px;
     border-radius: 50%;
     transition: .5s;
 }
+
 .we-do-img img {
     margin-right: 5px;
     transition: 0.5s;
 }
+
 .we-do-topics {
     margin-bottom: 27px;
 }
+
 .we-do-topics h2 a {
     color: #44454f;
     font-weight: 500;
     font-size: 20px !important;
 }
+
 .we-do-comment p {
     padding-right: 25px;
     padding-left: 25px;
@@ -530,10 +546,12 @@ a.service {
 .project-content {
     margin-top: 62px;
 }
+
 .project-header h2 {
     font-size: 30px;
     margin-bottom: 32px;
 }
+
 .isotope:after {
     content: '';
     display: block;
@@ -1065,6 +1083,7 @@ p.testimonial-body {
     font-size: 14px;
     transition: .5s;
 }
+
 .single-online-address {
     position: relative;
     margin-bottom: 30px;
@@ -1086,9 +1105,10 @@ p.testimonial-body {
 /* contact us : the end */
 /* New project */
 .new-project {
-    padding-top: 30px;
+    padding-top: 72px;
     background: #7370d8;
 }
+
 .single-new-project h3 {
     font-size: 30px;
     line-height: 1.5;
@@ -1316,8 +1336,6 @@ p.testimonial-body {
 .about-part-details h2 {
     position: relative;
     font-size: 40px;
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;
     margin-bottom: 3px;
     left: 15px;
 }
@@ -1373,7 +1391,6 @@ p.testimonial-body {
 
 .About-History-content h2 {
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
     font-weight: 600;
     padding: 16px 0 20px 0;
 }
@@ -1580,7 +1597,6 @@ p.testimonial-body {
     color: #4d4e54;
     font-size: 20px;
     font-weight: 500;
-    text-transform: capitalize;
 }
 
 .blog-widget .form-control {
@@ -1712,7 +1728,7 @@ p.testimonial-body {
     margin-bottom: 26px;
 }
 
-.single-article p { 
+.single-article p {
     line-height: 1.87;
 }
 
