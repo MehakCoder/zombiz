@@ -32,12 +32,21 @@ h6 {
     margin: 0;
     text-transform: capitalize;
 }
+h2{
+    font-family: 'Playfair Dispaly',serif;
+    font-weight: 700;
+    color: #44454f;
+    line-height: 1.5;
+}
+h2 a{
+    color: #44454f;
+    font-weight: 500;
+}
 p {
     color: #888;
     line-height: 1.5;
     margin: 0;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .bg-light {
@@ -271,23 +280,15 @@ textarea {
     position: relative;
     z-index: 1;
 }
-
 .slide-content h2 {
-    font-size: 70px;
     font-weight: 500;
     line-height: 1.5;
-    font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
 }
-
 .slide-content p {
     font-size: 24px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 51px;
 }
-
-
-
 .owl-item-slider-1 {
     background-image: url(../image/banner1.jpg);
     position: relative;
@@ -298,7 +299,6 @@ textarea {
     padding-top: 184px;
     padding-bottom: 192px;
 }
-
 .owl-item-slider-2 {
     background-image: url(../image/banner2.jpg);
     position: relative;
@@ -336,14 +336,12 @@ textarea {
     padding: 115px 0 82px;
 }
 .Services-header h2 {
-    color: #44454f;
     font-size: 30px;
     margin-bottom: 28px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
 }
 .Services-header p {
     margin: 0 auto;
+    padding-left: 19px;
     line-height: 1.8;
 }
 .we-do-details {
@@ -362,28 +360,23 @@ textarea {
 .single-we-do-box:hover {
     box-shadow: 0 0 20px rgb(36 38 42 / 10%);
 }
-
-.we-do-info {
-    font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
+.we-do-img {
+    margin-right: 5px;
+    border-radius: 50%;
+    transition: .5s;
 }
-
 .we-do-img img {
     margin-right: 5px;
     transition: 0.5s;
 }
-
-
 .we-do-topics {
-    margin-top: 32px;
     margin-bottom: 27px;
 }
-
 .we-do-topics h2 a {
-    font-size: 20px;
     color: #44454f;
+    font-weight: 500;
+    font-size: 20px !important;
 }
-
 .we-do-comment p {
     padding-right: 25px;
     padding-left: 25px;
@@ -403,9 +396,6 @@ textarea {
 
 .About-us h2 {
     color: #4d4e54;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;
     margin-bottom: 28px;
 }
 
@@ -467,9 +457,7 @@ textarea {
 }
 
 .Service-text h2 a {
-    color: #44454f;
     font-size: 24px;
-    font-family: 'Playfair Display', serif;
     padding: 47px 0 25px;
 }
 
@@ -542,15 +530,10 @@ a.service {
 .project-content {
     margin-top: 62px;
 }
-
 .project-header h2 {
-    color: #44454f;
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
     margin-bottom: 32px;
 }
-
 .isotope:after {
     content: '';
     display: block;
@@ -632,8 +615,6 @@ a.service {
 
 .Team-detail h2 {
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
     margin-bottom: 32px;
 }
 
@@ -723,10 +704,7 @@ a:focus.learn-btn {
 }
 
 .Pricing-detail h2 {
-    color: #44454f;
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
     letter-spacing: 3.5px;
     margin-bottom: 35px;
 }
@@ -760,7 +738,6 @@ a:focus.learn-btn {
 
 .Pricing-Header h2 {
     font-size: 24px;
-    text-transform: capitalize;
 }
 
 .Pricing-Header h3 {
@@ -811,8 +788,6 @@ a:focus.learn-btn {
 .section-header h2 span {
     color: #4d4e54;
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
 }
 
 .single-testimonial-slider {
@@ -880,8 +855,6 @@ p.testimonial-body {
 .section h2 {
     color: #4d4e54;
     font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
 }
 
 .section p {
@@ -1113,10 +1086,9 @@ p.testimonial-body {
 /* contact us : the end */
 /* New project */
 .new-project {
-    padding: 72px 0 72px;
+    padding-top: 30px;
     background: #7370d8;
 }
-
 .single-new-project h3 {
     font-size: 30px;
     line-height: 1.5;
