@@ -21,6 +21,7 @@ a:active,
 a:focus {
     display: inline-block;
     text-decoration: none;
+    text-transform: capitalize;
 }
 
 h1,
@@ -388,8 +389,6 @@ textarea {
 }
 
 .we-do-topics h2 a {
-    color: #44454f;
-    font-weight: 500;
     font-size: 20px !important;
 }
 
@@ -485,7 +484,6 @@ textarea {
 a.service {
     color: #7370d8;
     font-size: 16px;
-    text-transform: capitalize;
     margin-top: 12px;
     margin-bottom: 15px;
     text-decoration: none;
@@ -532,7 +530,6 @@ a.service {
 
 .statistics-content h3 {
     font-size: 20px;
-    text-transform: capitalize;
     margin-top: 9px;
     line-height: 1.5;
 }
@@ -691,7 +688,6 @@ a:focus.learn-btn {
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
-    text-transform: capitalize;
     margin-top: 8px;
     padding-bottom: 18px;
     opacity: 0;
@@ -768,7 +764,6 @@ a:focus.learn-btn {
 .Pricing-Header p {
     font-size: 20px;
     font-weight: 300;
-    text-transform: capitalize;
 }
 
 .plan-lists {
@@ -781,7 +776,6 @@ a:focus.learn-btn {
     font-size: 16px;
     line-height: 40px;
     color: #888;
-    text-transform: capitalize;
     transition: all 0.3 linear;
 }
 
@@ -820,7 +814,7 @@ a:focus.learn-btn {
     color: #7370d8;
     font-size: 24px;
     font-weight: 500;
-    text-transform: capitalize;
+   
 }
 
 .client-meta h4 {
@@ -831,7 +825,6 @@ a:focus.learn-btn {
 }
 
 p.testimonial-body {
-    color: #888;
     font-size: 24px;
     letter-spacing: -0.5px;
     padding: 15px 0 30px;
@@ -873,18 +866,19 @@ p.testimonial-body {
 .section h2 {
     color: #4d4e54;
     font-size: 30px;
+    margin-bottom: 32px;
 }
 
 .section p {
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 32px;
     line-height: 1.8;
+    margin-bottom: 70px;
 }
 
 .news-card {
     padding-bottom: 25px;
-    margin-top: 70px;
+
 }
 
 .single-news-box {
@@ -996,7 +990,6 @@ p.testimonial-body {
 
 .contact-form h3 {
     font-size: 24px;
-    text-transform: capitalize;
     margin-bottom: 40px;
 }
 
@@ -1038,7 +1031,6 @@ p.testimonial-body {
 .contact-office-address,
 .contact-office-address h3 {
     font-size: 24px;
-    text-transform: capitalize;
     z-index: 1;
     margin-bottom: 18px;
 }
@@ -1067,7 +1059,6 @@ p.testimonial-body {
     height: 50px;
     width: 195px;
     border: 1px solid #7370d8;
-    text-transform: uppercase;
     margin-top: 3px;
     transition: .5s;
 }
@@ -1187,7 +1178,6 @@ p.testimonial-body {
     font-size: 20px;
     margin-bottom: 32px;
     font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
 }
 
 .footer-menu ul {
@@ -1198,7 +1188,6 @@ p.testimonial-body {
     font-size: 14px;
     color: #aaa;
     padding-bottom: 20px;
-    text-transform: capitalize;
     transition: all 0.2s linear;
 }
 
@@ -1267,7 +1256,6 @@ p.testimonial-body {
 .foot-menu ul li {
     float: left;
     padding-left: 15px;
-    text-transform: capitalize;
 }
 
 .foot-menu li a {
@@ -1360,7 +1348,6 @@ p.testimonial-body {
     font-size: 20px;
     font-weight: 500;
     font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
 }
 
 .details-text li {
@@ -1421,7 +1408,6 @@ p.testimonial-body {
     font-size: 16px;
     color: #4d4e54;
     font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
     font-weight: 600;
     margin-top: 14px;
 }
@@ -1632,7 +1618,6 @@ p.testimonial-body {
     padding: 12px 0 0px;
     color: #888;
     font-size: 16px;
-    text-transform: capitalize;
     transition: all 0.5s linear;
 }
 
@@ -1661,7 +1646,6 @@ p.testimonial-body {
 
 .blog-text p a {
     color: #4d4e54;
-    text-transform: capitalize;
     margin-left: 20px;
     line-height: 1.4;
     transition: all 0.5s linear;
@@ -1687,7 +1671,6 @@ p.testimonial-body {
     color: #4d4e54;
     font-size: 12px;
     font-weight: 300;
-    text-transform: capitalize;
     background-color: #fff;
     border: 1px solid #4d4e54;
     margin: 0px 10px 10px 0;
@@ -1703,13 +1686,11 @@ p.testimonial-body {
     font-size: 30px;
     font-weight: 700;
     font-family: 'Playfair Display', serif;
-    text-transform: capitalize;
 }
 
 .blog-head p {
     color: #a4a4a4;
     font-size: 14px;
-    text-transform: capitalize;
 }
 
 .blog-head span {
@@ -1798,9 +1779,7 @@ p.testimonial-body {
 }
 
 .bl-single-tag p span a {
-    color: #636363;
-    text-transform: capitalize;
-}
+    color: #636363;}
 
 .bl-single-tag {
     float: right;
@@ -1848,7 +1827,6 @@ p.testimonial-body {
     color: #4d4e54;
     font-size: 20px;
     font-weight: 400;
-    text-transform: capitalize;
 }
 
 .comment-content>b.fn a span {
