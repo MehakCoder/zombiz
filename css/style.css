@@ -1,8 +1,46 @@
+/*==================================
+
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Lato', sans-serif;
+
+==================================== */
+/*=========== TABLE OF CONTENTS ===========
+1.  General css (Reset code)
+2. 	Header
+3.	Menu
+4.	Slider
+5. 	About
+6. 	Service
+7. 	Statistics
+8. 	Project
+9. 	Team
+10.	Pricing
+11.	Testimonial
+12. Client
+11.	Testemonial 
+14. Contact
+15. New-project
+16.	Footer
+17.	Footer Copyright
+
+===========*/
+/*-------------------------------------
+		1.General css (Reset code)
+-----*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     position: relative;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
     height: 100%;
     z-index: 2;
 }
@@ -118,7 +156,10 @@ textarea {
     transition: 0.5;
 }
 
-/* Header  */
+/*=============Style css=========*/
+/*-------------------------------------
+		2. Header
+--------------------------------------*/
 .header {
     padding-top: 20px;
     padding-bottom: 12px;
@@ -185,6 +226,8 @@ textarea {
     margin-left: 14px;
 }
 
+/* modal 
+--------------------*/
 .modal-header {
     border-bottom: none;
 }
@@ -203,13 +246,18 @@ textarea {
     color: #eb1b33;
 }
 
-/* Header : the end */
-/* menu */
+/*-------------------------------------
+		 Header : the end
+--------------------------------------*/
+/*-------------------------------------
+		3. Menu
+--------------------------------------*/
 #menu {
     z-index: 999;
 }
 
-/* wrapper-sticky */
+/* Wrapper-Sticky 
+--------------------*/
 .wrapper-sticky {
     background: rgba(115, 112, 216, 1);
     padding: 25px 0;
@@ -232,7 +280,6 @@ textarea {
     border: 1px solid #000;
     background: url(../image/menu-icon.svg) no-repeat center;
 }
-
 .cart span {
     position: absolute;
     cursor: pointer;
@@ -240,24 +287,17 @@ textarea {
     top: 16px;
     padding-left: 25px;
 }
-
 .search1 span {
     top: 16px;
 }
-
-.search1 input {
-    top: 40px;
-}
-
 .search1 span {
-    position: absolute;
     cursor: pointer;
     z-index: 1;
-    padding-left: 27px;
+    padding-left: 80px;
 }
 
 .search1 input {
-    position: relative;
+    position: absolute;
     top: 40px;
     right: -17px;
     width: 15px;
@@ -279,8 +319,12 @@ textarea {
     background-color: #fff;
 }
 
-/* Menu-bar : the end */
-/* slider */
+/*-------------------------------------
+		 Menu : the end
+--------------------------------------*/
+/*-------------------------------------
+		4. Slider
+--------------------------------------*/
 .slider-section {
     position: relative;
     z-index: 1;
@@ -338,9 +382,13 @@ textarea {
     z-index: -1;
 }
 
-/* slider:the end */
+/*-------------------------------------
+		 Slider : The End
+--------------------------------------*/
 
-/* we-do */
+/*-------------------------------------
+		4. We-do
+--------------------------------------*/
 
 .we-do {
     padding: 115px 0 82px;
@@ -397,9 +445,13 @@ textarea {
     padding-left: 25px;
 }
 
-/* we-do:the end */
+/*-------------------------------------
+		 We-do : the end
+--------------------------------------*/
 
-/* About us */
+/*-------------------------------------
+		5. About
+--------------------------------------*/
 .About-us {
     background: #f9faff;
     padding: 120px 0 175px;
@@ -440,8 +492,12 @@ textarea {
     z-index: -1;
 }
 
-/* About us : the end */
-/* Service */
+/*-------------------------------------
+		 About : the end
+--------------------------------------*/
+/*-------------------------------------
+		6. Service
+--------------------------------------*/
 .Services {
     padding: 116px 0 85px;
 }
@@ -489,8 +545,12 @@ a.service {
     text-decoration: none;
 }
 
-/* Service:the end */
-/* statistics */
+/*-------------------------------------
+		 Service : the end
+--------------------------------------*/
+/*-------------------------------------
+		7. Statistics
+--------------------------------------*/
 .statistics {
     position: relative;
     background-image: url(../image/counter-banner.jpg);
@@ -534,8 +594,12 @@ a.service {
     line-height: 1.5;
 }
 
-/* statistics : the end */
-/* Project */
+/*-------------------------------------
+		7. Statistics
+--------------------------------------*/
+/*-------------------------------------
+		8. Project
+--------------------------------------*/
 .project {
     padding: 117px 0 109px;
 }
@@ -621,8 +685,12 @@ a.service {
     background: transparent;
 }
 
-/* Project:the end */
-/* Our team */
+/*-------------------------------------
+		 Project : the end
+--------------------------------------*/
+/*-------------------------------------
+		9. Team
+--------------------------------------*/
 .Team {
     padding: 120px 0;
     background-color: #908ddc;
@@ -710,9 +778,13 @@ a:focus.learn-btn {
     box-shadow: 0px 5px 35px 5px rgba(6, 5, 49, .2);
 }
 
-/* our team : the end */
+/*-------------------------------------
+		Team : the end
+--------------------------------------*/
 
-/* Pricing */
+/*-------------------------------------
+		10.	Pricing 
+--------------------------------------*/
 .Pricing {
     padding: 115px 0 78px;
 }
@@ -789,8 +861,12 @@ a:focus.learn-btn {
     opacity: 1;
 }
 
-/* Pricing:the end */
-/* testmional */
+/*-------------------------------------
+			Pricing : the end
+--------------------------------------*/
+/*-------------------------------------
+		11.	Testemonial 
+--------------------------------------*/
 .testimonial {
     padding: 116px 0 89px;
     position: relative;
@@ -814,7 +890,7 @@ a:focus.learn-btn {
     color: #7370d8;
     font-size: 24px;
     font-weight: 500;
-   
+
 }
 
 .client-meta h4 {
@@ -845,8 +921,12 @@ p.testimonial-body {
     border: 2px solid #7370d8;
 }
 
-/* testmional : the end */
-/* clients */
+/*-------------------------------------
+	Testemonial : the end
+--------------------------------------*/
+/*-------------------------------------
+		12. Client
+--------------------------------------*/
 .clients {
     background-color: #7370d8;
     padding: 58px 0 0;
@@ -857,8 +937,12 @@ p.testimonial-body {
     position: relative;
 }
 
-/* clients : the end */
-/* news */
+/*-------------------------------------
+		 Client : the end
+--------------------------------------*/
+/*-------------------------------------
+		13. Latest News
+--------------------------------------*/
 .news {
     padding: 114px 0 95px;
 }
@@ -953,9 +1037,12 @@ p.testimonial-body {
     transform: scale(1.05);
 }
 
-
-/* news : the end */
-/* contact */
+/*-------------------------------------
+		 Latest News : the end
+--------------------------------------*/
+/*-------------------------------------
+		14. Contact
+--------------------------------------*/
 .contact {
     position: relative;
     padding: 115px 0 120px;
@@ -1093,8 +1180,12 @@ p.testimonial-body {
     margin-bottom: 19px;
 }
 
-/* contact us : the end */
-/* New project */
+/*-------------------------------------
+		 Contact : the end
+--------------------------------------*/
+/*-------------------------------------
+		15. New-project
+--------------------------------------*/
 .new-project {
     padding-top: 72px;
     background: #7370d8;
@@ -1118,8 +1209,12 @@ p.testimonial-body {
     border: 1px solid #f5f5fb;
 }
 
-/* New Project : the end */
-/* footer */
+/*-------------------------------------
+		 New-project : the end
+--------------------------------------*/
+/*-------------------------------------
+		16. Footer
+--------------------------------------*/
 .hm-footer {
     padding-top: 120px;
     padding-bottom: 68px;
@@ -1242,6 +1337,12 @@ p.testimonial-body {
     border: 0;
 }
 
+/*-------------------------------------
+		 Footer : the end
+--------------------------------------*/
+/*-------------------------------------
+		17. Footer- copyright
+--------------------------------------*/
 .footer-copyright {
     background: #1a1a2a;
     padding: 30px 0 35px;
@@ -1270,7 +1371,7 @@ p.testimonial-body {
     padding-left: 42px;
 }
 
-/* footer :the end */
+
 /* scroll */
 #scroll-Top .return-to-top {
     position: fixed;
@@ -1297,7 +1398,9 @@ p.testimonial-body {
     border-radius: 50%;
 }
 
-/* scroll : the end */
+/*-------------------------------------
+		 Footer Copyright : the end
+--------------------------------------*/
 /* ................................................................................................................... */
 /* Sub-pages */
 /* About-page */
@@ -1779,7 +1882,8 @@ p.testimonial-body {
 }
 
 .bl-single-tag p span a {
-    color: #636363;}
+    color: #636363;
+}
 
 .bl-single-tag {
     float: right;
