@@ -281,19 +281,26 @@ textarea {
     background: url(../image/menu-icon.svg) no-repeat center;
 }
 .cart span {
-    position: absolute;
+    
     cursor: pointer;
     z-index: 1;
     top: 16px;
     padding-left: 25px;
 }
+
 .search1 span {
     top: 16px;
 }
+
+.search1 input {
+    top: 40px;
+}
+
 .search1 span {
+    position: absolute;
     cursor: pointer;
     z-index: 1;
-    padding-left: 80px;
+    padding-left: 27px;
 }
 
 .search1 input {
