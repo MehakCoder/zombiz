@@ -32,15 +32,6 @@ h6 {
     margin: 0;
     text-transform: capitalize;
 }
-
-.Services-header h2 {
-    color: #44454f;
-    font-size: 30px;
-    margin-bottom: 28px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-}
-
 p {
     color: #888;
     line-height: 1.5;
@@ -344,7 +335,17 @@ textarea {
 .we-do {
     padding: 115px 0 82px;
 }
-
+.Services-header h2 {
+    color: #44454f;
+    font-size: 30px;
+    margin-bottom: 28px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.Services-header p {
+    margin: 0 auto;
+    line-height: 1.8;
+}
 .we-do-details {
     margin-top: 42px;
     margin-bottom: 60px;
@@ -372,10 +373,6 @@ textarea {
     transition: 0.5s;
 }
 
-.Services-header p {
-    margin: 0 auto;
-    line-height: 1.8;
-}
 
 .we-do-topics {
     margin-top: 32px;
